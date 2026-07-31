@@ -20,11 +20,9 @@
   <img src="assets/teaser.png" width="100%" alt="ShadowDancer teaser" />
 </p>
 
-ShadowDancer gives interactive video world models an **any-action, frame-level control** interface: point at a demonstration clip and the model re-enacts that action in a new world. The key idea is to observe the same dynamics **twice** — a *shadow pair* is two frame-synchronized renders of one dynamics under independently resampled appearance — and learn actions by *cross-shadow prediction*, so that whatever the pairing resamples is discarded by construction and whatever it preserves becomes the controllable action. Any demonstrated clip thereby becomes a reusable action asset, replayed without labels, motion estimators, or fine-tuning.
+ShadowDancer gives interactive video world models an **any-action, frame-level control**.
 
-## Code — Coming Soon
-
-The code and model weights are being cleaned up and are undergoing internal review before release. We will update this repository as soon as they are available. Stay tuned!
+The code and model weights are being cleaned up and are undergoing internal review before release.🚧 
 
 ## Citation
 
